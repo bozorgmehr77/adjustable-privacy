@@ -5,6 +5,7 @@ All of these codes are written in Jupyter Notebook.
 For simplicity, clone this repository into your google drive and use google colab.
 
 Guide:
+
 1- Clone the directory to the root of your google drive.
 
 2- Add a shortcut to this shared CelebA directory in "adjustable-privacy\Datasets" with the "CelebA" name:
@@ -34,9 +35,6 @@ https://drive.google.com/drive/folders/0B7EVK8r0v71pWEZsZE9oNnFzTm8?resourcekey=
 (Others)
 
 - (Others\model_number_and_lambda_selection.ipynb) This file investigates the impact of the model number and lambda on the utility privacy trade-off.
-- 
 - (Others\decorrelation_test.ipynb) This file is used to prove the decorrelation of utility features from others.
-- 
 - (Others\plots_of_image_case.ipynb) This file contains utility privacy trade-off plots in the image case.
-- 
 - (Others\plots_of_categorical_case.ipynb) This file contains utility privacy trade-off plots in the categorical case.

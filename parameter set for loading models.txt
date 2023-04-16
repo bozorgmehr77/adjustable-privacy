@@ -1,0 +1,74 @@
+1- Image Case\train_on_original.ipynb:
+    To load a model which inferred gender:
+        " --resume True" 
+        " --last_epoch 9" 
+        " --target_index 20" 
+        " --save_path drive/MyDrive/adjustable-privacy/Models/CelebA-G/" 
+        " --epoch_numbers 9"
+        
+    To load a model which inferred smiling:
+        " --resume True" 
+        " --last_epoch 6" 
+        " --target_index 31" 
+        " --save_path drive/MyDrive/adjustable-privacy/Models/CelebA-S/" 
+        " --epoch_numbers 6"
+        
+    To load a model which inferred open mouth:
+        " --resume True" 
+        " --last_epoch 2" 
+        " --target_index 21" 
+        " --save_path drive/MyDrive/adjustable-privacy/Models/CelebA-M/" 
+        " --epoch_numbers 2"
+        
+    To load a model which inferred highcheekbone:
+        " --resume True" 
+        " --last_epoch 3" 
+        " --target_index 19" 
+        " --save_path drive/MyDrive/adjustable-privacy/Models/CelebA-C/" 
+        " --epoch_numbers 3"
+       
+2- Image Case\train_obfuscator.ipynb:
+    To load a model for smiling (GS) - model 183:
+        " --resume True" 
+        " --last_epoch 183" 
+        " --target_index 31" 
+        " --save_path drive/MyDrive/adjustable-privacy/Models/CelebA-G-S-Obfuscator/" 
+        " --epoch_numbers 183" 
+    To load a model for smiling (GS) - model 13:
+        " --resume True" 
+        " --last_epoch 13" 
+        " --target_index 31" 
+        " --save_path drive/MyDrive/adjustable-privacy/Models/CelebA-G-S-Obfuscator/" 
+        " --epoch_numbers 13" 
+    To load a model for open mouth (GM) - model 187:
+        " --resume True" 
+        " --last_epoch 187" 
+        " --target_index 21" 
+        " --save_path drive/MyDrive/adjustable-privacy/Models/CelebA-G-M-Obfuscator/" 
+        " --epoch_numbers 187" 
+    To load a model for highcheekbone (GC) - model 191:
+        " --resume True" 
+        " --last_epoch 191" 
+        " --target_index 19" 
+        " --save_path drive/MyDrive/adjustable-privacy/Models/CelebA-G-C-Obfuscator/" 
+        " --epoch_numbers 191" 
+        
+3- Categorical Case\train_on_original.ipynb:
+    To load a adversary which inffers gender:
+        " --resume True"
+        " --last_epoch 11" 
+        " --target_index 1" 
+        " --save_path drive/MyDrive/adjustable-privacy/Models/categorical-Gender/" 
+        " --epoch_numbers 11" 
+        To load a utilizer which inffers income:
+        " --resume True"
+        " --last_epoch 8" 
+        " --target_index 2" 
+        " --save_path drive/MyDrive/adjustable-privacy/Models/categorical-Income/" 
+        " --epoch_numbers 8" 
+4- Categorical Case\train_obfuscator.ipynb:
+    To load pre-trained obfuscator:
+        " --resume True" 
+        " --last_epoch 169" 
+        " --save_path drive/MyDrive/adjustable-privacy/Models/categorical-Obfuscator/" 
+        " --epoch_numbers 169" 

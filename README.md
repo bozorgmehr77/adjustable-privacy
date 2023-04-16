@@ -11,7 +11,7 @@ Guide:
 2- Add a shortcut to this shared CelebA directory in "adjustable-privacy\Datasets" with the "CelebA" name:
 https://drive.google.com/drive/folders/0B7EVK8r0v71pWEZsZE9oNnFzTm8?resourcekey=0-5BR16BdXnb8hVj6CNHKzLg&usp=share_link
 
-- NOTE: All parameter sets are available in the comments of notebooks.
+- NOTE: All parameter sets for loading pre-trained models are available in "parameter set for loading models.txt"
 - NOTE: For more detail about each notebook, read the embedded comments in that notebook.
 
 (In image dataset case:)
